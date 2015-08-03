@@ -16,8 +16,11 @@ set foldmethod=marker
 
 filetype plugin on
 filetype indent on
-
+syntax enable
 colorscheme xoria256
+
+set timeoutlen=1000
+set ttimeoutlen=10
 
 set nobackup
 set nowb
@@ -46,14 +49,12 @@ set pastetoggle=<F2>
 map <space> /
 map <c-space> ?
 
-syntax enable
-
 nmap <C-b> :NERDTreeToggle<cr>
+let mapleader=","
 " }}}
 " Airline options ------------------------------- {{{
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
-set timeoutlen=25
 " }}}
 " Syntastic options ----------------------------- {{{
 set statusline+=%#warningmsg#
