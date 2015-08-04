@@ -22,3 +22,6 @@
 	path = bundle/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion.git
         branch = master
+[submodule "bundle/vim-sqf-syntax"]
+	path = bundle/vim-sqf-syntax
+	url = https://github.com/sqwishy/vim-sqf-syntax.git
