@@ -25,3 +25,6 @@
 [submodule "bundle/vim-sqf-syntax"]
 	path = bundle/vim-sqf-syntax
 	url = https://github.com/sqwishy/vim-sqf-syntax.git
+[submodule "bundle/table-mode"]
+	path = bundle/table-mode
+	url = https://github.com/dhruvasagar/vim-table-mode.git
